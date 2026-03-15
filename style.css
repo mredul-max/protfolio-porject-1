@@ -1,0 +1,54 @@
+
+
+nav ul li{
+list-style: none;
+margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+.list-1{
+    display: flex;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ button{
+    background-color: #FD6E0A;
+    color: aliceblue;
+   padding: 10px;
+    margin-top: -10px;
+    border-radius: 10px;
+    border: none;
+   
+    
+   
+   
+
+ }
+ div span button{
+   background: none;
+   color: #FD6E0A;
+   border-color: #FD6E0A;
+   padding: 10px;
+    margin-top: -10px;
+    border-radius: 10px;
+    border-color: #FD6E0A;
+ }
+ .banner{
+    display: flex;
+    margin: 0 35px 0 230px;
+     align-items: center;
+    justify-content: space-around;
+    
+ }
+    
+ .banner-pic {
+     max-width: 580px;
+  }
+  
+
+  
