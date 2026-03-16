@@ -22,8 +22,9 @@ nav{
    padding: 10px;
     margin-top: -10px;
     border-radius: 10px;
-    border: none;
-   
+    border-color: #FD6E0A;
+    
+ 
     
    
    
@@ -49,6 +50,23 @@ nav{
  .banner-pic {
      max-width: 580px;
   }
-  
-
+ .content{
+    background-color: #FD6E0A;
+    padding: 100px;
+    margin: 200px;
+    
+ }
+ .about{
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    
+ }
+ .name-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ 
+ 
   
