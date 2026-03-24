@@ -66,6 +66,70 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin: 80px;
+ }
+ .para{
+    color: gray;
+    font-size: larger;
+ }
+
+ .card-intro{
+   text-align: center;
+ }
+  .card{
+   display: flex;
+  
+     justify-content: space-around;
+    padding: 100px;
+       
+
+   
+  }
+  .skill-box{
+    width: 250px;
+  text-align: left;
+  border-radius: 8px;
+  padding: 20px;
+  
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  }
+  .p-text{
+   color: darkgrey;
+  }
+  .resume-h1{
+   text-align: center;
+  }
+ 
+ .resume-conteiner{
+   display: flex;
+   justify-content: space-around;
+  
+ }
+ p{
+   color: gray;
+ }
+ h3{
+   color: gray;
+ }
+ .btn{
+  display: block;      
+    margin: 0 auto;      
+    margin-top: 50px;   
+    width: fit-content; 
+    padding: 10px 20px; 
+ }
+ .contact-conteiner{
+   padding: 130px 230px;
+   display: flex;
+   background-color: beige;
+   gap: 100px;
+   
+ }
+ .info-cont-row{
+   height: 64px;
+   border-radius: 5px;
+   background-color: white;
  }
  
  
