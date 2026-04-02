@@ -127,9 +127,27 @@ nav{
    
  }
  .info-cont-row{
-   height: 64px;
+   height: 44px;
+   width: 500px;
    border-radius: 5px;
+   border-style: none;
    background-color: white;
+   color: gray;
+   padding-left: 20px;
+    font-size: large;
+   
+   
+ }
+ textarea{
+   height: 44px;
+   width: 500px;
+   border-radius: 5px;
+   border-style: none;
+   background-color: white;
+   color: gray;
+   padding-left: 20px;
+  font-size:x-large;
+  height: 200px;
  }
  
  
