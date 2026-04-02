@@ -124,6 +124,7 @@ nav{
    display: flex;
    background-color: beige;
    gap: 100px;
+   margin-top: 40px;
    
  }
  .info-cont-row{
@@ -149,6 +150,16 @@ nav{
   font-size:x-large;
   height: 200px;
  }
- 
- 
+.copy-right{
+   position: absolute;
+    bottom: 0; /* একদম নিচে সেট করবে */
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+ .s-btn{
+  height: 50px;
+  width: 100px;
+  font-weight: 600;
+ }
   
