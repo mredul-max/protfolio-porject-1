@@ -278,15 +278,33 @@ nav{
   justify-content: center;
 }
 .email{
-   word-break: break-all;     /* বড় ইমেল বা টেক্সটকে ভেঙে নিচের লাইনে নিয়ে আসবে */
-    overflow-wrap: break-word; /* এটিও নিশ্চিত করবে যেন লেখা বর্ডারের বাইরে না যায় */
-    width: 100%;               /* কন্টেইনারের পুরো জায়গা নিবে */
+   word-break: break-all;     
+    overflow-wrap: break-word; 
+    width: 90%;               
     display: block;
+    padding: -30px;
+   font-size: small;
 }
 .banner{
   margin: 0 !important;
         padding: 20px;
         width: 100%;
+}
+.v-j{
+   font-size: medium;
+  margin: 1px;
+}
+.m-db{
+font-size: medium;
+  margin: 1px;
+}
+.n-js{
+  font-size: medium;
+  margin: 1px;
+}
+.react{
+  font-size: medium;
+  margin: 1px;
 }
   } 
 
