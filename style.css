@@ -1,4 +1,34 @@
-
+.h-div{
+  background-color: #FFF8F3;
+  background-image: url(images/developer.png) , url(images/header_bg.png); 
+  background-repeat: no-repeat; 
+  background-position: top left , bottom right;
+   background-size: contain;
+}
+span{
+  color: #FD6E0A;
+}
+.h4-1{
+  font-size: 45px; 
+  font-weight: 600;
+   color:#757575;
+}
+.h1-1{
+  font-size: 45px;
+   font-weight: 600;
+}
+.p-1{
+  font-size: 20px; 
+  font-weight: 100;
+   color:#757575;
+}
+.d-cv-1{
+ font-size: 20px;
+  font: weight 100;
+}
+.contect{
+  font-size: 20px; font: weight 100;
+}
 
 nav ul li{
 list-style: none;
@@ -50,10 +80,10 @@ nav{
  .banner-pic {
      max-width: 580px;
   }
- .content{
+ .contact{
     background-color: #FD6E0A;
-    padding: 100px;
-    margin: 200px;
+    padding: 60px;
+    margin: 100px;
     
  }
  .about{
@@ -69,8 +99,8 @@ nav{
     margin: 80px;
  }
  .para{
-    color: gray;
-    font-size: larger;
+  color: #757575;
+  font-size: large;
  }
 
  .card-intro{
@@ -90,6 +120,8 @@ nav{
   text-align: left;
   border-radius: 8px;
   padding: 20px;
+  margin: 10px;
+  
   
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
@@ -152,7 +184,7 @@ nav{
  }
 .copy-right{
    position: absolute;
-    bottom: 0; /* একদম নিচে সেট করবে */
+    bottom: 0; 
     left: 0;
     right: 0;
     text-align: center;
@@ -163,5 +195,100 @@ nav{
   font-weight: 600;
   
  }
+
+ html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
   
+ @media screen and (max-width: 768px) {
+  
+  .banner, .name-info, .card, .resume-conteiner, .contact-conteiner, nav {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    gap: 20px;
+  }
+   .contact-conteiner {
+    padding: 40px 20px;   
+   margin: -20px;
+   width: 100%;
+    gap: 20px;
+    
+  }
+  .name-info {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -10px; 
+
+    padding: 10px;
+    width: 100%; 
+
+  }
+
+  
+  .info-cont-row, textarea, .skill-box, .banner-pic {
+    width: 100%;!important
+    max-width: 100%;
+  }
+
+  
+  .h4-1, .h1-1 {
+    font-size: 30px;
+  }
+
+  
+  .list-1 {
+    flex-direction: column;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+   .skill-box {        
+   width: 100%;
+   padding: 10px;
+  
+}
+.contact{
+  background: lightsalmon;
+    padding: 15px; /* প্যাডিং কমিয়ে দিন যাতে ভেতরে জায়গা বাড়ে */
+    width: 70%;    /* স্ক্রিনের সাথে মানানসই উইডথ */
+    margin: 20px auto;
+    height: auto; 
+}
+.para{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+  
+}
+.h1-1-1{
+  display: flex;
+  justify-content: center;
+}
+.email{
+   word-break: break-all;     /* বড় ইমেল বা টেক্সটকে ভেঙে নিচের লাইনে নিয়ে আসবে */
+    overflow-wrap: break-word; /* এটিও নিশ্চিত করবে যেন লেখা বর্ডারের বাইরে না যায় */
+    width: 100%;               /* কন্টেইনারের পুরো জায়গা নিবে */
+    display: block;
+}
+.banner{
+  margin: 0 !important;
+        padding: 20px;
+        width: 100%;
+}
+  } 
+
+ 
   
